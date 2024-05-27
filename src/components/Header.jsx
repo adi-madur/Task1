@@ -490,7 +490,7 @@ const Header = () => {
                           width={0}
                           height={0}
                           className="position-absolute "
-                          style={{ right: "30px", top: "10px" }}
+                          style={{ right: "30px", top: "10px", cursor: 'pointer' }}
                         />
                       </div>
                       <div className="d-flex flex-row align-items-center  justify-content-between ">
@@ -554,7 +554,7 @@ const Header = () => {
                       }}
                     >
                       <div className="col-2">
-                        <Image src={google} alt="google" width={0} height={0} />
+                        <Image src={google} alt="google" width={16} height={16} />
                       </div>
 
                       <div className="col-8 fw-bold ">Continue with Google</div>
@@ -573,8 +573,8 @@ const Header = () => {
                         <Image
                           src={facebook}
                           alt="facebook"
-                          width={0}
-                          height={0}
+                          width={16}
+                          height={16}
                         />
                       </div>
 

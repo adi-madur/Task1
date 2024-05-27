@@ -191,9 +191,8 @@ export default function Home() {
         <div className="container row mx-auto gap-3 gap-md-5">
           <div>
             <h1 className="fst-italic fw-semibold bottom-style-h1">
-              Your <span style={{ color:"#8064A2" }}>Hobby</span> , Your{""}
+              Your <span style={{ color:"#8064A2" }}>Hobby</span> , Your{" "}
               <span style={{ color:"#0096C8" }}>Community...</span>
-              Community...
             </h1>
             <button className="btn btn-primary px-4 py-2 mt-4 fw-semibold">
               Get started
