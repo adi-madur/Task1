@@ -1,0 +1,130 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+$primary: #8064a2;
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1240px,
+);
+
+.custom-line-height {
+  line-height: 1; /* Default line height */
+
+  @media (min-width: 576px) {
+    line-height: 1.5; /* Line height for small screens and up */
+  }
+
+  @media (min-width: 768px) {
+    line-height: 2; /* Line height for medium screens and up */
+  }
+
+  @media (min-width: 992px) {
+    line-height: 2.5; /* Line height for large screens and up */
+  }
+
+  @media (min-width: 1200px) {
+    line-height: 3; /* Line height for extra-large screens and up */
+  }
+}
+
+//.cardStyle:hover {
+//  background-color: #007bff; /* Primary color, change it to your primary color */
+//}
+
+//.cardStyle:hover .card-title,
+//.cardStyle:hover .card-text,
+//.cardStyle:hover .btn {
+//  color: #ffffff; /* White color */
+//}
+
+//.cardStyle:hover .svg-icon {
+//  fill: #ffffff; /* White color */
+//}
+
+//.cardStyle .svg-icon {
+//  transition: filter 0.3s ease; /* Add a smooth transition effect */
+//}
+
+//.cardStyle:hover .svg-icon {
+//  filter: brightness(0) invert(1); /* Change the color to white on hover */
+//}
+
+.custom-image-class {
+  width: 100px;
+  height: 100px;
+}
+
+/* Styles for screens smaller than 768px (sm) */
+@media (max-width: 767.98px) {
+  .custom-image-class {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.nav-tabs .nav-link {
+  color: #939ca3;
+  border: 0;
+  border: none;
+  background: none;
+}
+
+.nav-tabs .nav-link:hover {
+  background: none;
+}
+
+.nav-tabs .nav-link.active {
+  font-weight: bold;
+  background-color: none;
+  background: none;
+  color: $primary;
+  border-bottom: 2px solid $primary;
+}
+
+.sign-in-btn {
+  color: black;
+  &:hover {
+    color: white;
+  }
+}
+
+.svgStyle {
+  fill: black;
+  &:hover {
+    fill: white;
+  }
+}
+
+.tab-item {
+  color: black;
+  background: "black";
+  border: "none";
+  border-radius: "8px 8px 0px 0px";
+  border-bottom: "#8064A2";
+}
+
+.text-middle {
+  .span {
+    background: #f7f5f9;
+    padding: 0 10px;
+  }
+  width: 100%;
+  text-align: center;
+  border-bottom: 2px solid #ced4da;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  font-weight: 700;
+}
+
+.bottom-style-h1 {
+  font-style: italic;
+  font-weight: 600; 
+
+  font-size: 14px; 
+
+  @media (min-width: 768px) {
+    font-size: 36px;
+  }
+}
